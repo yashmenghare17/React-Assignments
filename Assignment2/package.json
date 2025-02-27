@@ -1,7 +1,7 @@
 {
-  "name": "City Description Project",
+  "name": "Food-Katta",
   "version": "1.0.0",
-  "description": "City Description Project",
+  "description": "Food-Katta",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start"
