@@ -45,11 +45,11 @@ const App = () => {
     return(
         <div className="w-full h-[100vh]">
             <header className="w-full bg-[#F1F0E9] md:flex">
-                    <div className="w-full  ml-2 mt-5 mb-5 text-center">
-                        <h1 className="text-5xl">Score Keeper</h1>
+                    <div className="w-full mt-5 mb-5 text-center md:text-5xl sm:2xl">
+                        <h1 className=""><b>Score Keeper</b></h1>
                     </div>
             </header>
-            <div className="w-full bg-[#41644A] flex">
+            <div className="w-full bg-[#41644A] md:flex sm:flex-col">
                 <Card team_name={"Team A"} score={ascore} incrementDecrement={incrementDecrement} result={result}  reset={reset} />
                 <Card team_name={"Team B"} score={bscore} incrementDecrement={incrementDecrement} result={result} reset={reset} />
             </div>
