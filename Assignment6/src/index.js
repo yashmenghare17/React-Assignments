@@ -49,7 +49,7 @@ const App = () => {
                         <h1 className=""><b>Score Keeper</b></h1>
                     </div>
             </header>
-            <div className="w-full bg-[#41644A] md:flex sm:flex-col">
+            <div className="w-full bg-[#41644A] md:flex">
                 <Card team_name={"Team A"} score={ascore} incrementDecrement={incrementDecrement} result={result}  reset={reset} />
                 <Card team_name={"Team B"} score={bscore} incrementDecrement={incrementDecrement} result={result} reset={reset} />
             </div>
